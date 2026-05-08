@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #D32D32;
+  --color-brand-dark: #B02525;
+  --color-ink: #0A0A0A;
+  --color-body: #374151;
+  --color-muted: #6B7280;
+  --color-line: #E5E7EB;
+  --color-surface: #F9FAFB;
+
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+  color: #374151;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+#root {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+::selection {
+  background: #D32D32;
+  color: #fff;
+}
+
+/* ── Hero circle float animations ── */
+@keyframes float-a {
+  0%, 100% { transform: translate(0px, 0px); }
+  33%       { transform: translate(10px, -14px); }
+  66%       { transform: translate(-8px, 8px); }
+}
+@keyframes float-b {
+  0%, 100% { transform: translate(0px, 0px); }
+  50%       { transform: translate(-12px, 16px); }
+}
+@keyframes float-c {
+  0%, 100% { transform: translate(0px, 0px) scale(1); }
+  50%       { transform: translate(12px, -10px) scale(1.06); }
+}
+@keyframes float-d {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-18px); }
+}
+
+/* ── Typewriter cursor blink ── */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
