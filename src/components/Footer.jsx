@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
           <div>
             <span className="text-[11px] font-bold tracking-[0.2em] uppercase text-muted block mb-1">
-              Tour-Log
+              K.Morales
             </span>
             <p className="text-sm text-muted">
               2026 Educational Tour — Karel Morales · BSIT · WMSU
@@ -24,9 +24,7 @@ export default function Footer() {
           <p className="text-xs text-muted">
             © 2026 Karel Morales. All rights reserved.
           </p>
-          <p className="text-xs text-muted">
-            DJM Educational Tour Chronicle
-          </p>
+          <p className="text-xs text-muted">DJM Educational Tour Chronicle</p>
         </div>
       </div>
     </footer>
