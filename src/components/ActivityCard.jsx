@@ -25,7 +25,7 @@ export default function ActivityCard({ activity, index }) {
             </div>
           )}
 
-          <p className="text-body text-[15px] leading-relaxed mb-5">
+          <p className="text-body text-[15px] leading-relaxed mb-5 text-justify">
             {activity.description}
           </p>
 

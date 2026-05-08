@@ -15,8 +15,8 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/days/:slug" element={<DayPage />} />
         </Routes>
+        <Footer />
       </main>
-      <Footer />
     </>
   );
 }

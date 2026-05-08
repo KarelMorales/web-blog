@@ -222,10 +222,10 @@ export const tourDays = [
     subtitle: "ZIA · NAIA · Rizal Park · Intramuros · Manila Cathedral · MOA",
     theme: "heritage",
     themeColor: "#1C1C1E",
-    coverImg: "",
-    vibe: "The Heritage Core — a full day that begins in the air over Mindanao and ends at the walls of a 16th-century colonial city.",
+    coverImg: rizalPhotos[2],
+    vibe: "A full day that begins in the air over Mindanao and ends at the walls of a 16th-century colonial city.",
     intro:
-      "Day 00 starts before any scheduled site: a morning flight from Zamboanga International Airport, touchdown at NAIA, then straight into the city. By afternoon the group is walking through Luneta, Fort Santiago, Manila Cathedral, and the bayside scale of SM Mall of Asia—all within a few kilometres of each other.",
+      "Day 00 starts before any scheduled site: a morning flight from Zamboanga International Airport, touchdown at NAIA, then straight into the city. By afternoon the group was walking through Luneta, Fort Santiago, Manila Cathedral, and the bayside scale of SM Mall of Asia, all within a few kilometres of each other.",
     photos: [],
     videos: [],
     activities: [
@@ -235,12 +235,10 @@ export const tourDays = [
         location: "Zamboanga City, Mindanao",
         address: "Zamboanga International Airport, Zamboanga City",
         description:
-          "Zamboanga International Airport (IATA: ZAM) is the primary air gateway of Zamboanga City—one of the oldest Spanish colonial settlements in the Philippines, founded in the 17th century. The airport handles domestic routes to Manila, Cebu, and Davao, with Cebu Pacific and Philippine Airlines serving the Zamboanga–Manila corridor. For most of the group, this departure marked the first time leaving Mindanao by air.",
-        story:
-          "Departure airports carry a different weight when you know you're leaving for a week. Zamboanga's terminal is compact—everything visible from a single concourse—which makes the contrast with NAIA especially sharp on arrival. The flight covers roughly 850 km in just under two hours. The city below, seen from the window on ascent, looks different when you know you'll be comparing it to Manila for the next seven days.",
+          "Zamboanga International Airport (IATA: ZAM) is the primary air gateway of Zamboanga City, one of the oldest Spanish colonial settlements in the Philippines, founded in the 17th century. The airport handles domestic routes to Manila, Cebu, and Davao, with Cebu Pacific and Philippine Airlines serving the Zamboanga to Manila corridor. For most of the group, this departure marked the first time leaving Mindanao by air.",
         trivia: [
-          "Zamboanga City is among the oldest Spanish colonial settlements in the Philippines, established in the 17th century—the same era as the walls of Intramuros visited later that same day.",
-          "The Zamboanga–Manila air corridor is one of the busiest domestic routes in the Philippines, served by Cebu Pacific and Philippine Airlines.",
+          "Zamboanga City is among the oldest Spanish colonial settlements in the Philippines, established in the 17th century, the same era as the walls of Intramuros visited later that same day.",
+          "The Zamboanga to Manila air corridor is one of the busiest domestic routes in the Philippines, served by Cebu Pacific and Philippine Airlines.",
           "Zamboanga International Airport is the primary hub for Western Mindanao, linking the region to Luzon and the Visayas.",
         ],
         photos: [],
@@ -252,13 +250,11 @@ export const tourDays = [
         location: "Pasay City, Metro Manila",
         address: "NAIA Terminal, Pasay City, Metro Manila",
         description:
-          "Ninoy Aquino International Airport (NAIA) is the Philippines' busiest airport and primary international gateway, handling over 45 million passengers annually across four terminals. NAIA Terminal 4—the domestic arrivals point for many provincial routes—is the oldest of the four: a compact structure that funnels passengers directly into the ground transport corridor. Stepping out of arrivals at NAIA is the first direct contact with Metro Manila's density and infrastructure scale.",
-        story:
-          "NAIA is chaotic by design—it was never built for the volume it now processes. The arrivals exit deposits you immediately into one of the most active ground transport zones in the metro: taxis, airport shuttles, GRAB pickup lanes, and the walkway to the terminal road all converging at once. For anyone arriving from a smaller city, the pace shift is instant. The drive from NAIA to Quezon City alone—where the group was based—takes anywhere from 45 minutes to over an hour, which is its own first lesson in Metro Manila traffic.",
+          "Ninoy Aquino International Airport (NAIA) is the Philippines' busiest airport and primary international gateway, handling over 45 million passengers annually across four terminals. Terminal 4 is the oldest of the four, a compact structure that funnels passengers directly into the ground transport corridor. Stepping out of arrivals at NAIA is the first contact with Metro Manila's density and scale.",
         trivia: [
           "NAIA processes over 45 million passengers per year across its four terminals, making it the busiest airport in the Philippines.",
-          "The airport is named after Senator Benigno 'Ninoy' Aquino Jr., assassinated on the tarmac upon returning to the Philippines in 1983.",
-          "Despite its volume, NAIA consistently ranks among the most congested airports in Asia-Pacific—its infrastructure significantly pre-dates its current passenger load.",
+          "The airport is named after Senator Benigno Ninoy Aquino Jr., who was assassinated on the tarmac upon returning to the Philippines in 1983.",
+          "NAIA consistently ranks among the most congested airports in Asia Pacific, as its infrastructure was built well before its current passenger volume.",
         ],
         photos: airportPhotos,
         videos: airportVideos,
@@ -269,12 +265,10 @@ export const tourDays = [
         location: "Ermita, Manila",
         address: "Roxas Boulevard, Ermita, Manila",
         description:
-          "Stretching 58 hectares along the Roxas Boulevard waterfront, Luneta is one of Southeast Asia's largest urban civic parks. Three distinct landmarks coexist within its grounds: the Rizal Monument—national hero's tomb and bronze statue—the separate execution site where Rizal fell in 1896, and a 1965 topographic scale model of the entire Philippine archipelago set flush into the earth.",
-        story:
-          "Most visitors head directly to the monument and walk past the execution site entirely—it's positioned on the opposite end, a few minutes' walk away, and is easy to miss without a map. The ground-level relief map is the most overlooked detail of all: a full-scale topographic representation of every island in the archipelago built into the ground. The park's spatial layout is deliberate, each element placed to reinforce its historical weight. Navigating it on foot is the only way to understand how the pieces relate.",
+          "Stretching 58 hectares along the Roxas Boulevard waterfront, Luneta is one of Southeast Asia's largest urban civic parks. Three distinct landmarks can be found within its grounds: the Rizal Monument with the national hero's tomb and bronze statue, the separate execution site where Rizal fell in 1896, and a 1965 topographic scale model of the entire Philippine archipelago set into the earth.",
         trivia: [
           "Luneta covers 58 hectares, placing it among the largest urban green spaces in Asia.",
-          "Rizal was executed on this ground on December 30, 1896—a date now observed nationally as Rizal Day.",
+          "Rizal was executed on this ground on December 30, 1896, a date now observed nationally as Rizal Day.",
           "The 1965 relief map embedded in the park's surface replicates the full Philippine archipelago at scale.",
         ],
         photos: rizalPhotos,
@@ -286,13 +280,11 @@ export const tourDays = [
         location: "The Walled City, Manila",
         address: "Intramuros, Manila",
         description:
-          "Founded by Spanish colonisers in 1571, Intramuros is Manila's original settlement—the fortified city-within-a-city that served as the colonial capital for over three centuries. Its stone walls reach up to seven metres thick in critical sections, engineered specifically to withstand cannon fire. That physical 'firewall' is essentially the earliest version of a hardened perimeter. Fort Santiago, the most intact military installation inside the walls, served as garrison and detention facility through the Japanese occupation of World War II.",
-        story:
-          "Fort Santiago's dungeon level held Rizal the night before his execution. The path he walked from the cell to Luneta is still marked and walkable. The seven-metre walls weren't just defensive engineering—they were the original urban planning boundary for an entire colonial settlement. Walking the perimeter on foot gives you a sense of the scale that photographs can't.",
+          "Founded by Spanish colonisers in 1571, Intramuros is Manila's original settlement, the fortified city that served as the colonial capital for over three centuries. Its stone walls reach up to seven metres thick in critical sections, engineered to withstand cannon fire. Fort Santiago, the most intact military installation inside the walls, served as a garrison and detention facility through the Japanese occupation in World War II.",
         trivia: [
-          "Intramuros was established in 1571. The name comes from Latin—'within the walls.'",
+          "Intramuros was established in 1571. The name comes from Latin meaning within the walls.",
           "The walls of Intramuros measure up to 7 metres thick in certain sections, built to resist cannon fire from colonial-era warships.",
-          "Fort Santiago's dungeon held Rizal on the night before his execution. The path he walked to Luneta remains traceable today.",
+          "Fort Santiago's dungeon held Rizal on the night before his execution, and the path he walked to Luneta remains traceable today.",
         ],
         photos: intramurosPhotos,
         videos: [],
@@ -303,11 +295,9 @@ export const tourDays = [
         location: "Intramuros, Manila",
         address: "Cabildo St, Intramuros, Manila",
         description:
-          "Standing at the centre of Intramuros, the Manila Cathedral has been destroyed and rebuilt eight separate times by earthquake, fire, and war—its current structure completed in 1958 on the original footprint. Inside: detailed ceiling mosaics, vaulted nave arches, and a pipe organ with over 4,500 pipes, ranking it among the largest in Asia. The cathedral holds daily mass and remains an active parish.",
-        story:
-          "Eight iterations on the same site, each time rebuilt using the Latin cross floor plan of the one before it. The organ's 4,500-pipe count is easy to register as a statistic and miss as a physical scale—standing beneath it, the instrument occupies the rear of the hall from floor to vault. The ceiling mosaic work is visible only at certain light levels and rewards time to look up.",
+          "Standing at the centre of Intramuros, the Manila Cathedral has been destroyed and rebuilt eight separate times by earthquake, fire, and war. Its current structure was completed in 1958 on the original footprint. Inside, visitors can see detailed ceiling mosaics, vaulted nave arches, and a pipe organ with over 4,500 pipes, ranking it among the largest in Asia. The cathedral holds daily mass and remains an active parish.",
         trivia: [
-          "The Manila Cathedral has been destroyed and rebuilt eight times—by earthquake, fire, and the destruction of World War II.",
+          "The Manila Cathedral has been destroyed and rebuilt eight times by earthquake, fire, and the destruction of World War II.",
           "Its formal title is the Minor Basilica and Metropolitan Cathedral of the Immaculate Conception.",
           "The cathedral's pipe organ contains over 4,500 pipes, making it one of the largest instruments of its kind in Asia.",
         ],
@@ -320,12 +310,10 @@ export const tourDays = [
         location: "Pasay City, Metro Manila",
         address: "J.W. Diokno Blvd, Pasay, Metro Manila",
         description:
-          "Built on reclaimed land along the Manila Bay shoreline in Pasay, SM Mall of Asia covers over 407,000 sqm of gross floor area. When it opened in 2006, it held the title of the world's largest mall. The complex includes the main mall structure, MOA Arena (15,000-seat capacity), an IMAX theatre, a skating rink, and a bayside promenade that runs along the full exterior facing Manila Bay.",
-        story:
-          "The bayside promenade is the most underrated part of the MOA complex—an open-air walkway facing the bay directly, with unobstructed sunset views, food stalls, and weekend fireworks. The mall interior divides into four major blocks; a directory is essential for first-time navigation. The Arena hosts concerts and sporting events independently of the retail complex.",
+          "Built on reclaimed land along the Manila Bay shoreline in Pasay, SM Mall of Asia covers over 407,000 sqm of gross floor area. When it opened in 2006, it held the title of the world's largest mall. The complex includes the main mall structure, MOA Arena with 15,000-seat capacity, an IMAX theatre, a skating rink, and a bayside promenade that runs along the full exterior facing Manila Bay.",
         trivia: [
           "SM Mall of Asia opened in 2006 and briefly held the title of the world's largest mall at over 407,000 sqm of gross floor area.",
-          "The complex is built on reclaimed land along Manila Bay—the same waterfront renowned for its sunset views.",
+          "The complex is built on reclaimed land along Manila Bay, the same waterfront known for its sunset views.",
           "MOA Arena holds 15,000 people and serves as one of Metro Manila's primary large-event venues.",
         ],
         photos: moaPhotos,
@@ -344,10 +332,10 @@ export const tourDays = [
     subtitle: "Hytech Power · OpenText BGC",
     theme: "corporate",
     themeColor: "#1A2C4E",
-    coverImg: "",
-    vibe: "Artistic Engineering — from simulation hardware built by interns, to enterprise software managing global information at scale.",
+    coverImg: hytechPhotos[4],
+    vibe: "From simulation hardware built by interns to enterprise software managing global information at scale.",
     intro:
-      "Two facility visits covering opposite ends of the industry: Hytech Power with its hands-on simulation hardware and intern-built robotics, and OpenText's BGC office operating at the enterprise software and international operations level. The contrast was deliberate—both companies are building systems, just at very different scales.",
+      "Two facility visits covering opposite ends of the industry: Hytech Power with its hands-on simulation hardware and intern-built robotics, and OpenText's BGC office operating at the enterprise software level. Both companies are building systems, just at very different scales.",
     photos: [],
     videos: [],
     activities: [
@@ -357,9 +345,7 @@ export const tourDays = [
         location: "Metro Manila",
         address: "Metro Manila, Philippines",
         description:
-          "Hytech Power is a Philippine industrial training technology company specialising in simulation hardware. Their facility houses VR welding simulators with full haptic feedback that replicate the physical resistance of live welding without material cost or safety exposure, alongside anatomical training models, transistor and circuit display boards, and robotics units built entirely by their student intern programme—several of which have placed in national competitions.",
-        story:
-          "The VR welding setup is the most technically interesting element: pressure-sensitive haptic feedback that mimics the resistance of actual arc or MIG welding, letting students train their technique in a virtual environment. The robotics section demonstrates something rarer—hardware that student interns designed and built, placed in national competition. The company's intern-to-product pipeline is genuinely uncommon.",
+          "Hytech Power is a Philippine industrial training technology company specialising in simulation hardware. Their facility houses VR welding simulators with full haptic feedback that replicate the physical resistance of live welding without material cost or safety exposure. The facility also includes anatomical training models, transistor and circuit display boards, and robotics units built entirely by their student intern programme, several of which have placed in national competitions.",
         trivia: [
           "Hytech Power's VR welding simulator replicates arc and MIG welding with haptic feedback, removing material cost and safety overhead from technical training.",
           "Several robotics units on display were built by the company's student intern programme and have placed in national competitions.",
@@ -374,13 +360,11 @@ export const tourDays = [
         location: "Bonifacio Global City, Taguig",
         address: "Bonifacio Global City, Taguig, Metro Manila",
         description:
-          "OpenText is a global Enterprise Information Management company headquartered in Canada, with operations in nearly every major market worldwide. Their Bonifacio Global City office in Taguig handles international client accounts across multiple verticals. The visit was structured as a career orientation covering the company's operational hierarchy, available IT roles, and the specific hiring process from resume screening to technical assessment.",
-        story:
-          "The BGC district itself is worth registering: walkable, consistently zoned, and deliberately designed as a contrast to the organic density of surrounding Metro Manila. The orientation Q&A with the recruitment team was the most direct part of the visit—clear answers on what their technical assessments actually test, and what they screen for at the resume stage. That kind of unfiltered career briefing doesn't appear in any job description.",
+          "OpenText is a global Enterprise Information Management company headquartered in Canada, with operations in nearly every major market worldwide. Their Bonifacio Global City office in Taguig handles international client accounts across multiple verticals. The visit was structured as a career orientation covering the company's operational hierarchy, available IT roles, and the hiring process from resume screening to technical assessment.",
         trivia: [
           "OpenText operates in over 100 countries, managing enterprise information systems for organisations across virtually every industry sector.",
-          "The BGC district in Taguig is one of the few deliberately planned urban developments in Metro Manila, designed with walkability and mixed-use zoning from the ground up.",
-          "Enterprise Information Management covers document control, digital forensics, cybersecurity, and content services—all under a single operational umbrella.",
+          "The BGC district in Taguig is one of the few deliberately planned urban developments in Metro Manila, designed with walkability and mixed-use zoning.",
+          "Enterprise Information Management covers document control, digital forensics, cybersecurity, and content services under a single operational umbrella.",
         ],
         photos: opentextPhotos,
         videos: [],
@@ -398,10 +382,10 @@ export const tourDays = [
     subtitle: "MMDA · Teleperformance",
     theme: "government",
     themeColor: "#1F3A2A",
-    coverImg: "",
-    vibe: "The Backbone — two operations running around the clock, one managing city-wide infrastructure, one handling global customer volume.",
+    coverImg: mmdaPhotos[4],
+    vibe: "Two operations running around the clock, one managing city-wide infrastructure and one handling global customer volume.",
     intro:
-      "Day 2 covered two 24-hour operations at opposite ends of the public-private spectrum: MMDA's metro-wide traffic and emergency command infrastructure running on an air-gapped fibre-optic network, and Teleperformance's massive global customer experience operation with AI already embedded into daily workflow.",
+      "Day 2 covered two 24-hour operations: MMDA's metro-wide traffic and emergency command infrastructure running on a private fibre-optic network, and Teleperformance's global customer experience operation with AI already embedded into daily workflow.",
     photos: [],
     videos: [],
     activities: [
@@ -411,12 +395,10 @@ export const tourDays = [
         location: "Makati City, Metro Manila",
         address: "Makati City, Metro Manila",
         description:
-          "The Metropolitan Manila Development Authority coordinates traffic management, flood control, and emergency response across all 16 cities and municipalities of Metro Manila. Their command centre runs on a private underground fibre-optic loop isolated from commercial ISPs—a localized air-gapped network that keeps the live feed system operational independent of public internet status. A floor-to-ceiling video wall displays simultaneous live feeds from hundreds of traffic and CCTV cameras across the metro.",
-        story:
-          "The command centre is an active operations room, not a demonstration setup. The NCAP system identifies traffic violations from live camera footage using computer vision and licence plate recognition—no officer presence required at each location. The isolated fibre-optic network is the critical infrastructure detail: it means the system cannot be taken offline by a commercial ISP outage or public network disruption. That design decision mirrors how critical systems in other sectors handle uptime requirements.",
+          "The Metropolitan Manila Development Authority coordinates traffic management, flood control, and emergency response across all 16 cities and municipalities of Metro Manila. Their command centre runs on a private underground fibre-optic loop isolated from commercial ISPs, keeping the live feed system operational independent of public internet status. A floor-to-ceiling video wall displays simultaneous live feeds from hundreds of traffic and CCTV cameras across the metro.",
         trivia: [
-          "MMDA's command centre operates on a private underground fibre-optic network isolated from commercial ISPs—ensuring uninterrupted feed performance regardless of public internet status.",
-          "The NCAP violation detection system identifies traffic infractions automatically using computer vision and licence plate recognition, without requiring officer presence.",
+          "MMDA's command centre operates on a private underground fibre-optic network isolated from commercial ISPs, ensuring uninterrupted feed performance regardless of public internet status.",
+          "The NCAP violation detection system identifies traffic infractions automatically using computer vision and licence plate recognition, without requiring officer presence at each location.",
           "MMDA coordinates emergency response and flood monitoring across all 16 cities of Metro Manila simultaneously.",
         ],
         photos: mmdaPhotos,
@@ -428,13 +410,11 @@ export const tourDays = [
         location: "Metro Manila",
         address: "Metro Manila, Philippines",
         description:
-          "Teleperformance is one of the world's largest customer experience management companies, operating in nearly 100 countries. Their Philippine operations manage international accounts across multiple service verticals, with AI-assisted tools already integrated into the standard agent workflow—automated ticketing, intelligent call routing, and real-time guidance systems running alongside human operators.",
-        story:
-          "The operations floor is organised by client account clusters rather than by function. Each cluster has dedicated team leads and quality assurance personnel. AI augmentation is embedded as standard procedure—not a pilot programme—handling routing, ticket creation, and live agent prompting in real time. The Philippine BPO sector generates over $26 billion in annual revenue; this visit made that number visible at floor level.",
+          "Teleperformance is one of the world's largest customer experience management companies, operating in nearly 100 countries. Their Philippine operations manage international accounts across multiple service verticals, with AI-assisted tools integrated into the standard agent workflow. These include automated ticketing, intelligent call routing, and real-time guidance systems running alongside human operators.",
         trivia: [
           "Teleperformance operates in nearly 100 countries, making it one of the largest customer experience management firms globally.",
           "The Philippines BPO industry employs over 1.3 million workers and generates more than $26 billion in annual revenue.",
-          "AI tools are already running as standard infrastructure in BPO operations—handling routing, ticketing, and real-time agent guidance alongside human staff.",
+          "AI tools are already running as standard infrastructure in BPO operations, handling routing, ticketing, and real-time agent guidance alongside human staff.",
         ],
         photos: telePhotos,
         videos: [],
@@ -452,10 +432,10 @@ export const tourDays = [
     subtitle: "Top Peg Animation · MicroSourcing",
     theme: "creative",
     themeColor: "#3B1F4A",
-    coverImg: "",
-    vibe: "Creative Infrastructure — two production models: one building animation frame by frame for global screens, the other building dedicated remote teams for international operations.",
+    coverImg: topPegPhotos[0],
+    vibe: "Two production models: one building animation frame by frame for global screens, and the other building dedicated remote teams for international operations.",
     intro:
-      "Two contrasting production environments—Top Peg Animation Studio producing content for Disney, Nintendo, and Netflix's Trese from Quezon City, and MicroSourcing building dedicated offshore teams for international clients. Both are in the business of sustained output, just across entirely different pipelines.",
+      "Two contrasting production environments: Top Peg Animation Studio producing content for Disney, Nintendo, and Netflix's Trese from Quezon City, and MicroSourcing building dedicated offshore teams for international clients. Both are focused on sustained output across very different pipelines.",
     photos: [],
     videos: [],
     activities: [
@@ -465,12 +445,10 @@ export const tourDays = [
         location: "Quezon City, Metro Manila",
         address: "Quezon City, Metro Manila",
         description:
-          "Top Peg Animation and Creative Studio in Quezon City has production credits on internationally distributed properties—Disney, Nintendo, and Netflix's Trese. The studio operates the full animation pipeline internally: storyboarding, layout, key animation, in-betweening, cleanup, colouring, and final compositing—each stage handled by a specialist department with its own production schedule.",
-        story:
-          "Walking through the studio is essentially a sequential tour of how an animation project moves from concept to finished frames. Each department is at a different pipeline stage on different projects simultaneously—you can see the workflow at multiple points of completion at once. The Pen Display demo lets visitors draw directly on the pressure-sensitive surface, giving a brief hands-on feel for the hardware professional animators work on daily.",
+          "Top Peg Animation and Creative Studio in Quezon City has production credits on internationally distributed properties including Disney, Nintendo, and Netflix's Trese. The studio operates the full animation pipeline internally with dedicated departments for storyboarding, layout, key animation, in-betweening, cleanup, colouring, and final compositing. Visitors can walk through the studio and see each stage of the pipeline in progress on different projects simultaneously.",
         trivia: [
-          "Top Peg holds production credits on content for Disney, Nintendo, and Netflix's Trese—all produced from their Quezon City studio.",
-          "Professional animation production divides into distinct specialist stages: storyboarding, layout, key animation, in-betweening, cleanup, colour, and compositing.",
+          "Top Peg holds production credits on content for Disney, Nintendo, and Netflix's Trese, all produced from their Quezon City studio.",
+          "Professional animation production is divided into distinct specialist stages: storyboarding, layout, key animation, in-betweening, cleanup, colour, and compositing.",
           "Wacom Pen Display hardware allows animators to draw directly on screen with pressure-sensitive input, replacing the traditional separated tablet-and-monitor setup.",
         ],
         photos: topPegPhotos,
@@ -482,12 +460,10 @@ export const tourDays = [
         location: "Pasay City, Metro Manila",
         address: "Pasay City, Metro Manila",
         description:
-          "MicroSourcing builds dedicated offshore teams for international companies across IT, finance, marketing, and operations. Unlike a standard BPO model, each team works exclusively for one client—embedded in that client's operational structure rather than rotating across accounts. The visit included a briefing from department leaders on the model's mechanics, what competencies are in highest demand, and how Philippine IT graduates are positioned in the global talent market.",
-        story:
-          "The key distinction between BPO and dedicated staffing is the single-client relationship: the team works inside one company's operations, not as a shared resource. That changes the nature of the role considerably—embedded teams build institutional knowledge over time rather than rotating through scripts. The Philippines consistently ranks as a top offshore staffing destination due to English precision, technical education output, and time-zone coverage of both US and Australian business hours.",
+          "MicroSourcing builds dedicated offshore teams for international companies across IT, finance, marketing, and operations. Unlike a standard BPO model, each team works exclusively for one client and is embedded in that client's operational structure rather than rotating across accounts. The visit included a briefing from department leaders on the model's mechanics, the competencies in highest demand, and how Philippine IT graduates are positioned in the global talent market.",
         trivia: [
           "MicroSourcing is one of the Philippines' largest dedicated offshore staffing providers, serving clients across the US, Australia, and Europe.",
-          "Dedicated offshore staffing differs from BPO: teams work exclusively for a single client, embedded in that client's operations rather than shared across accounts.",
+          "Dedicated offshore staffing differs from BPO in that teams work exclusively for a single client, embedded in that client's operations rather than shared across accounts.",
           "The Philippines ranks among the top global offshore staffing destinations, supported by English proficiency, IT education volume, and favourable time-zone coverage.",
         ],
         photos: microSourcingPhotos,
@@ -506,10 +482,10 @@ export const tourDays = [
     subtitle: "People's Park in the Sky · Sky Ranch",
     theme: "nature",
     themeColor: "#1A3A2A",
-    coverImg: "",
-    vibe: "Nature's Interface — Taal Volcano viewed as a study in nested geological design. A lake within a lake within a caldera.",
+    coverImg: peoplesParkPhotos[0],
+    vibe: "Taal Volcano viewed from the ridge at 700 metres. A lake within a lake within a caldera.",
     intro:
-      "Araw ng Kagitingan cleared the corporate itinerary. The group moved to Tagaytay instead—700 metres above sea level, Taal Volcano directly in view, no schedule. Two sites on the ridge: People's Park in the Sky at the summit of Mount Sungay, then Sky Ranch for the aerial vantage point from the Sky Eye Ferris wheel.",
+      "Araw ng Kagitingan cleared the corporate itinerary. The group moved to Tagaytay instead, 700 metres above sea level with Taal Volcano directly in view. Two sites on the ridge: People's Park in the Sky at the summit of Mount Sungay, then Sky Ranch for the aerial view from the Sky Eye Ferris wheel.",
     photos: [],
     videos: [],
     activities: [
@@ -519,11 +495,9 @@ export const tourDays = [
         location: "Tagaytay City, Cavite",
         address: "Mount Sungay, Tagaytay City, Cavite — 700m above sea level",
         description:
-          "People's Park in the Sky sits at the summit of Mount Sungay, the highest point along the Tagaytay ridge at approximately 700 metres elevation. From here, the full Taal complex is visible simultaneously: the outer caldera lake, the volcanic island within it, and the active crater lake nested inside the island. A lake within a lake within a caldera—one of the most layered geological formations of its type, often drawn as an analogy for nested data structures in nature.",
-        story:
-          "What registers first at this altitude is scale. The outer lake is large enough that the island looks small from the ridge—until you understand that the island itself contains another complete lake. The summit wind keeps temperatures noticeably cooler than the Tagaytay main road, and the 360-degree view extends into the Cavite and Batangas lowlands on clear days.",
+          "People's Park in the Sky sits at the summit of Mount Sungay, the highest point along the Tagaytay ridge at approximately 700 metres elevation. From here the full Taal complex is visible at once: the outer caldera lake, the volcanic island within it, and the active crater lake nested inside the island. The site offers one of the most complete views of Taal Volcano available from any publicly accessible viewpoint in the region.",
         trivia: [
-          "Taal is a volcanic island sitting inside a lake, which itself sits inside a larger volcanic caldera—one of the most uniquely nested geological formations in the world.",
+          "Taal is a volcanic island sitting inside a lake, which itself sits inside a larger volcanic caldera, making it one of the most uniquely nested geological formations in the world.",
           "The Tagaytay ridge sits at approximately 700 metres above sea level, giving it a consistently cooler climate than Metro Manila throughout the year.",
           "Taal Volcano is among the most active in the Philippines with over 30 recorded eruptions in historical records.",
         ],
@@ -536,9 +510,7 @@ export const tourDays = [
         location: "Tagaytay City, Cavite",
         address: "Tagaytay City, Cavite — along the ridge",
         description:
-          "Sky Ranch is an amusement park positioned along the Tagaytay ridge with Taal Volcano as the permanent backdrop. The main draw is the Sky Eye Ferris wheel—at its apex, each gondola looks directly out over Taal Lake and the surrounding ridge, with each rotation taking approximately ten minutes.",
-        story:
-          "The Sky Eye's value is what you see at the top rather than the ride mechanics. Each rotation brings the volcano and lake into direct sightline overhead for a sustained window. The park handles large tour groups efficiently, which matters for itinerary logistics when you're moving a full group through a leisure stop.",
+          "Sky Ranch is an amusement park positioned along the Tagaytay ridge with Taal Volcano as the permanent backdrop. The main attraction is the Sky Eye Ferris wheel, which at its apex gives each gondola a direct sightline over Taal Lake and the surrounding ridge. Each rotation takes approximately ten minutes, providing a sustained aerial view of the volcano and surrounding landscape.",
         trivia: [
           "The Sky Eye Ferris wheel at Sky Ranch is one of the tallest in the Philippines, providing an aerial sightline directly over Taal Lake.",
           "Sky Ranch sits on the Tagaytay ridge at an elevation that gives all outdoor attractions a naturally cooler ambient temperature year-round.",
@@ -561,10 +533,10 @@ export const tourDays = [
       "La Trinidad · Bell Church · PMA · The Mansion · Mines View · Night Market",
     theme: "mountain",
     themeColor: "#1A2A3A",
-    coverImg: "",
-    vibe: "Smart City Architecture — urban planning at altitude. Six sites across a single day, from highland agriculture to military discipline to a night market with enforced pedestrian flow.",
+    coverImg: minesViewPhotos[0],
+    vibe: "Six sites across a single day, from highland agriculture to military discipline to a night market at 1,500 metres elevation.",
     intro:
-      "Overnight bus from Manila to Baguio arriving pre-dawn at 1,500 metres elevation. Six sites across a full day: La Trinidad Strawberry Farm, Bell Church, the Philippine Military Academy, The Mansion, Mines View Park, and the Harrison Road Night Market. Baguio is a UNESCO Creative City—proof that culture and urban structure can scale together.",
+      "Overnight bus from Manila to Baguio arriving pre-dawn at 1,500 metres elevation. Six sites across a full day: La Trinidad Strawberry Farm, Bell Church, the Philippine Military Academy, The Mansion, Mines View Park, and the Harrison Road Night Market. Baguio is a UNESCO Creative City with a well-planned urban layout at altitude.",
     photos: [],
     videos: [],
     activities: [
@@ -574,12 +546,10 @@ export const tourDays = [
         location: "La Trinidad, Benguet",
         address: "La Trinidad, Benguet — Strawberry Capital of the Philippines",
         description:
-          "La Trinidad in Benguet is officially designated the Strawberry Capital of the Philippines. Its highland climate and valley floor elevation sustain commercial strawberry cultivation that supplies much of Luzon. The farms along the valley floor are active agricultural operations open to walk-through visits, with visible irrigation systems and cultivation rows across the full plots.",
-        story:
-          "Walking the cultivation rows is a different scale experience from seeing produce in a market. The volume and organisation of the rows make the agricultural supply chain tangible. Strawberry taho—a highland variation of the classic Filipino street snack, served cold with sago and syrup—is sold by vendors near the entrance and is only available in this region.",
+          "La Trinidad in Benguet is officially designated the Strawberry Capital of the Philippines. Its highland climate and valley floor elevation sustain commercial strawberry cultivation that supplies much of Luzon. The farms along the valley floor are active agricultural operations open to walk-through visits, with visible irrigation systems and cultivation rows across the full plots. Strawberry-based local products and the regional specialty of strawberry taho are available from vendors near the entrance.",
         trivia: [
           "La Trinidad is officially recognised as the Strawberry Capital of the Philippines.",
-          "Strawberry cultivation in Benguet relies on the province's cool highland climate—conditions that aren't replicable at lower elevations.",
+          "Strawberry cultivation in Benguet relies on the province's cool highland climate, as the conditions are not replicable at lower elevations.",
           "Strawberry taho is a regional specialty unique to the Baguio-Benguet area and unavailable elsewhere in the Philippines.",
         ],
         photos: strawberryPhotos,
@@ -591,13 +561,11 @@ export const tourDays = [
         location: "La Trinidad / Baguio Border",
         address: "Kilometer 3, La Trinidad, Benguet",
         description:
-          "Bell Church is a Taoist-Buddhist temple complex established in 1960 by the Chinese community in the Baguio-La Trinidad area. The compound ascends the hillside across multiple tiered levels connected by staircases, with pagoda structures, dragon sculptures, hanging bell installations, and Chinese calligraphic inscriptions becoming more elaborate at higher tiers.",
-        story:
-          "Navigation is vertical—you enter at street level and climb. The dragon sculptures grow larger and more detailed toward the upper tiers. The bell installations near the top produce constant ambient resonance when wind moves through them. From the highest terrace, the view opens across the La Trinidad valley. The descent back through the sculpture sequence in reverse is a different visual experience from the climb.",
+          "Bell Church is a Taoist-Buddhist temple complex established in 1960 by the Chinese community in the Baguio-La Trinidad area. The compound ascends the hillside across multiple tiered levels connected by staircases, with pagoda structures, dragon sculptures, hanging bell installations, and Chinese calligraphic inscriptions becoming more elaborate at higher tiers. From the highest terrace, the view opens across the La Trinidad valley.",
         trivia: [
           "Bell Church was established in 1960 by Chinese immigrants who settled in the Baguio-Benguet region.",
           "The temple follows a syncretic Taoist-Buddhist tradition common among Chinese diaspora communities throughout Southeast Asia.",
-          "The hanging bells throughout the upper tiers are rung by worshippers as a form of prayer—the sound they produce is continuous when wind passes through.",
+          "The hanging bells throughout the upper tiers are rung by worshippers as a form of prayer and produce a continuous sound when wind passes through.",
         ],
         photos: bellChurchPhotos,
         videos: [],
@@ -608,9 +576,7 @@ export const tourDays = [
         location: "Fort del Pilar, Baguio City",
         address: "Fort del Pilar, Baguio City, Benguet",
         description:
-          "The Philippine Military Academy at Fort del Pilar in Baguio City covers 373 hectares as a fully self-contained military installation—hospital, housing, fuel stations, training grounds, parade area, and Melchor Hall all within the perimeter. The Academy has produced every Chief of Staff of the Armed Forces of the Philippines since its establishment.",
-        story:
-          "Public access is limited to designated areas from the main gate. What registers immediately is scale—the installation perimeter is extensive, and the public-accessible grounds near Melchor Hall give only a partial impression of the full complex. The static WWII aircraft on display near the entrance is an unexpected detail. The disciplined layout of the visible grounds makes the 373-hectare figure feel real rather than abstract.",
+          "The Philippine Military Academy at Fort del Pilar in Baguio City covers 373 hectares as a fully self-contained military installation. Within its grounds are a hospital, housing, fuel stations, training grounds, parade area, and Melchor Hall. The Academy has produced every Chief of Staff of the Armed Forces of the Philippines since its establishment. WWII-era aircraft are preserved on static display near the entrance as part of the Academy's historical collection.",
         trivia: [
           "Fort del Pilar covers 373 hectares and functions as a fully self-contained military installation with its own hospital, housing, and infrastructure.",
           "The PMA has produced every Chief of Staff of the Armed Forces of the Philippines since the Academy's founding.",
@@ -625,9 +591,7 @@ export const tourDays = [
         location: "Leonard Wood Road, Baguio City",
         address: "Leonard Wood Road, Baguio City, Benguet",
         description:
-          "The Mansion is the official summer residence of the President of the Philippines, built in 1908 during the American colonial period in Victorian architectural style. It is one of the very few structures in Baguio that survived World War II intact. Every Philippine president since Manuel Quezon has used the property as an official working retreat.",
-        story:
-          "Visitors access only the area immediately around the main gate—the ornate wrought-iron entrance and the formal garden immediately behind it. The adjacent Wright Park offers the public access to the Pool of Pines and a horse-riding circuit, providing a longer stay option beyond the gate viewpoint.",
+          "The Mansion is the official summer residence of the President of the Philippines, built in 1908 during the American colonial period in Victorian architectural style. It is one of the very few structures in Baguio that survived World War II intact. Every Philippine president since Manuel Quezon has used the property as an official working retreat. Visitors can view the ornate wrought-iron entrance gate and the formal garden immediately behind it.",
         trivia: [
           "The Mansion was built in 1908 and served as the summer residence of American colonial governors before becoming the official presidential retreat.",
           "It is among the very few structures in Baguio that survived the destruction of World War II intact.",
@@ -642,9 +606,7 @@ export const tourDays = [
         location: "Mines View, Baguio City",
         address: "Mines View, Baguio City, Benguet",
         description:
-          "Mines View Park is a public lookout point in Baguio City positioned above the former gold and copper mining corridor of Itogon, Benguet. The observation deck provides an unobstructed sightline over the Cordillera mountain ranges and the mining valley below. At ground level, the park hosts souvenir stalls, food vendors, and traditional Igorot attire available for hire.",
-        story:
-          "The Itogon mines visible from the deck were among Southeast Asia's most productive gold and copper operations through the 20th century. From this elevation, the terrain the mines had to operate within becomes legible in a way no photograph captures. Traditional Igorot attire—complete with headdress and accessories—is available at rental stations for group photographs.",
+          "Mines View Park is a public lookout point in Baguio City positioned above the former gold and copper mining corridor of Itogon, Benguet. The observation deck provides an unobstructed view over the Cordillera mountain ranges and the mining valley below. At ground level the park hosts souvenir stalls, food vendors, and traditional Igorot attire available for hire.",
         trivia: [
           "The Itogon mines visible from the observation deck were among the most productive gold and copper operations in Southeast Asia during the 20th century.",
           "The Igorot are the indigenous highland peoples of the Cordillera Administrative Region, with distinct cultural traditions from lowland Philippine communities.",
@@ -659,12 +621,10 @@ export const tourDays = [
         location: "Harrison Road, Baguio City",
         address: "Harrison Road, Baguio City, Benguet",
         description:
-          "The Baguio Night Market operates along Harrison Road every evening, functioning as one of the Philippines' most well-known night markets—particularly recognised for its dense selection of second-hand and surplus clothing. The city manages foot traffic through a single-direction pedestrian flow system enforced by city staff and police along the full market length.",
-        story:
-          "The one-directional flow system prevents the standard congestion of a dense street market—you move continuously forward without squeezing past oncoming foot traffic. Stalls are dense and continuous along both sides of the road. The ukay-ukay section varies significantly between vendors in terms of quality, but branded near-new items appear regularly at substantially below retail price.",
+          "The Baguio Night Market operates along Harrison Road every evening and is one of the Philippines' most well-known night markets, particularly recognised for its dense selection of second-hand and surplus clothing. The city manages foot traffic through a single-direction pedestrian flow system enforced by city staff and police along the full market length. Stalls are continuous along both sides of the road with food, clothes, and local goods.",
         trivia: [
           "The Baguio Night Market is one of the Philippines' longest-running and most visited night markets.",
-          "A one-way pedestrian flow system—implemented by the city government—manages the high foot traffic volume along Harrison Road.",
+          "A one-way pedestrian flow system managed by the city government controls the high foot traffic volume along Harrison Road.",
           "Ukay-ukay, the Philippine term for second-hand and surplus clothing, has grown into a distinct shopping culture with its own dedicated enthusiast community.",
         ],
         photos: [],
@@ -676,13 +636,11 @@ export const tourDays = [
         location: "Baguio City",
         address: "SM City Baguio · Goodtaste Restaurant · Harrison Road, Baguio City",
         description:
-          "After a full day of scheduled visits, the group had unstructured evening time across three Baguio landmarks: SM City Baguio perched on top of a hill with panoramic city views, Goodtaste Restaurant—a Baguio institution known for its affordable Chinese-Filipino menu served in generous portions—and the Harrison Road Night Market for a final round of ukay-ukay and street food.",
-        story:
-          "SM Baguio is unusual among SM malls: built into the hillside, its rooftop level opens directly onto a city overlook. Goodtaste is the kind of place that doesn't need to advertise—it's been feeding Baguio residents and visitors the same reliable menu for decades, and the group found it at capacity on a Friday night. The Night Market caps the evening with the sensory density of a full working ukay-ukay strip.",
+          "After a full day of scheduled visits, the group had free evening time across three Baguio spots: SM City Baguio perched on a hill with panoramic city views, Goodtaste Restaurant known for its affordable Chinese-Filipino menu served in generous portions, and the Harrison Road Night Market for street food and ukay-ukay shopping.",
         trivia: [
           "SM City Baguio sits at one of the highest elevations of any SM mall in the Philippines, with an open rooftop that functions as a city observation deck.",
-          "Goodtaste Restaurant has been a Baguio dining staple for decades, known for large servings at low prices—a combination that keeps the queues consistently long.",
-          "The Baguio Night Market on Harrison Road runs every night of the year, rain or shine, making it one of the most consistent street commerce operations in the Philippines.",
+          "Goodtaste Restaurant has been a Baguio dining staple for decades, known for large servings at low prices.",
+          "The Baguio Night Market on Harrison Road runs every night of the year, making it one of the most consistent street commerce operations in the Philippines.",
         ],
         photos: freeTimePhotos,
         videos: [],
@@ -700,10 +658,10 @@ export const tourDays = [
     subtitle: "Free Time — Baguio City",
     theme: "mountain",
     themeColor: "#1A2A3A",
-    coverImg: "",
-    vibe: "Open Hours — the last full day in Baguio, unscheduled and unhurried, spent at one of the most iconic public parks in the Philippines.",
+    coverImg: burnhamPhotos[0],
+    vibe: "The last full day in Baguio, spent at one of the most iconic public parks in the Philippines.",
     intro:
-      "No facilities, no briefings. Day 6 was free time in Baguio. The group spent the afternoon and early evening at Burnham Park—the city's historic urban green space designed by Daniel Burnham himself—rowing on the lake, walking the paths, and taking in the Cordillera air before the overnight transit back to Manila.",
+      "No facilities, no briefings. Day 6 was free time in Baguio. The group spent the afternoon and early evening at Burnham Park, the city's historic urban green space, rowing on the lake, walking the paths, and taking in the Cordillera air before the overnight transit back to Manila.",
     photos: [],
     videos: [],
     activities: [
@@ -713,9 +671,7 @@ export const tourDays = [
         location: "Baguio City",
         address: "Jose Abad Santos Drive, Baguio City, Benguet",
         description:
-          "Burnham Park is the central public park of Baguio City, designed by Daniel Burnham—the American urban planner who also designed Baguio's city layout—and established in the early 1900s. The park spans over 30 hectares along a man-made lake used for rowboat rentals, surrounded by open lawns, cycling paths, a rose garden, and picnic areas. It sits at the heart of the city and functions as Baguio's primary civic commons.",
-        story:
-          "Burnham Park has a different quality than the day's scheduled stops—no admission, no itinerary, no fixed endpoint. The rowboats on the lake are the main draw: open wooden boats that move slowly across the still water, with the Cordillera treeline visible in every direction. The park fills with locals and visitors in the late afternoon. It's the kind of place that gives you a ground-level read on how the city actually uses its public space.",
+          "Burnham Park is the central public park of Baguio City, designed by Daniel Burnham, the American urban planner who also designed Baguio's city layout, and established in the early 1900s. The park spans over 30 hectares around a man-made lake used for rowboat rentals, surrounded by open lawns, cycling paths, a rose garden, and picnic areas. The park sits at the heart of the city and serves as Baguio's primary civic commons.",
         trivia: [
           "Burnham Park was designed by Daniel Burnham, the same American architect who planned the broader layout of Baguio City as a hill station in the early 1900s.",
           "The park's man-made lake is one of the few spots in the Philippines where rowboat rentals remain a standard public leisure activity.",
@@ -737,10 +693,10 @@ export const tourDays = [
     subtitle: "Baguio → Quezon City → Zamboanga",
     theme: "closing",
     themeColor: "#2A1A1A",
-    coverImg: "",
-    vibe: "Synthesis — eight days integrating technical theory with cultural practice. The tour ends where it began: in transit, heading home to Zamboanga.",
+    coverImg: departurePhotos[0],
+    vibe: "The tour ends where it began, in transit heading home to Zamboanga.",
     intro:
-      "The final day. Checkout from Baguio, transit back to Prince Plaza Hotel in Quezon City, then an early morning departure from Manila back to Zamboanga. The same route in reverse—from the walled city back to the colonial outpost that started it all.",
+      "The final day. Checkout from Baguio, transit back to Prince Plaza Hotel in Quezon City, then an early morning departure from Manila back to Zamboanga. The same route in reverse, heading home.",
     photos: [],
     videos: [],
     activities: [
@@ -751,8 +707,6 @@ export const tourDays = [
         address: "Baguio City, Benguet",
         description:
           "The final Baguio morning was unscheduled. After six packed days of consecutive movement through facilities and transit, the group used the remaining hours for rest before the noon checkout. No external visits were made.",
-        story:
-          "Sometimes the most useful thing at the end of a dense itinerary is the absence of one. The morning was spent inside—packing, reviewing the week, and closing out mentally before the checkout call and the long transit home.",
         trivia: [],
         photos: [],
         videos: [],
@@ -763,11 +717,9 @@ export const tourDays = [
         location: "Baguio → Quezon City → Zamboanga",
         address: "Prince Plaza Hotel, Quezon City",
         description:
-          "The closing sequence: checkout from Baguio accommodations, transit back to Prince Plaza Hotel in Quezon City, then an early morning departure from Manila back to Zamboanga City. Total tour: eight days, three destinations—Manila, Tagaytay, Baguio—over a dozen sites visited.",
-        story:
-          "Prince Plaza Hotel in Quezon City served as both the opening and closing base for the tour, bookending the full circuit. The return flight from Manila to Zamboanga covers approximately 1.5 to 2 hours, closing a week that began and ended at the same airport. Zamboanga City—Karel's home—was founded as a Spanish colonial outpost in the 17th century, the same era as the walls of Intramuros that opened the tour on Day 0.",
+          "The closing sequence: checkout from Baguio accommodations, transit back to Prince Plaza Hotel in Quezon City, then an early morning departure from Manila back to Zamboanga City. The tour covered eight days and three destinations including Manila, Tagaytay, and Baguio, with over a dozen sites visited.",
         trivia: [
-          "Zamboanga City is one of the oldest cities in the Philippines, established as a Spanish colonial settlement in the 17th century—contemporaneous with Intramuros.",
+          "Zamboanga City is one of the oldest cities in the Philippines, established as a Spanish colonial settlement in the 17th century, contemporaneous with Intramuros.",
           "The DJM Educational Tour covered three major destinations across eight days: Manila, Tagaytay, and Baguio.",
           "Prince Plaza Hotel in Quezon City has served as a standard staging base for educational tours originating from Mindanao for many years.",
         ],
